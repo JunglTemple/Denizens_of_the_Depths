@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "denizens_of_the_depths",
+  "version": "${version}",
+  "name": "Denizens of the Depths",
+  "description": "The custom Minecraft update: Denizens of the Depths!",
+  "authors": [
+    "JunglTemple",
+    "SashaBalobent"
+  ],
+  "contact": {
+    "repo": "https://github.com/antoni/Denizens of the Depths"
+  },
+  "license": "MIT",
+  "icon": "assets/denizens_of_the_depths/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.jungltemple.denizens_of_the_depths.client.DenizensOfTheDepthsClient"
+    ],
+    "main": [
+      "io.github.jungltemple.denizens_of_the_depths.DenizensOfTheDepths"
+    ]
+  },
+  "mixins": [
+    "denizens_of_the_depths.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "suggests": {},
+  "breaks": {},
+  "custom": {},
+  "jars": [],
+  "conflicts": {},
+  "languageAdapters": {},
+  "recommends": {},
+  "contributors": []
+}
