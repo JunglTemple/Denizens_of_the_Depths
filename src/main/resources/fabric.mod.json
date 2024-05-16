@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "denizens_of_the_depths",
+  "id": "denizens",
   "version": "${version}",
   "name": "Denizens of the Depths",
   "description": "The custom Minecraft update: Denizens of the Depths!",
@@ -12,7 +12,7 @@
     "repo": "https://github.com/antoni/Denizens of the Depths"
   },
   "license": "MIT",
-  "icon": "assets/denizens_of_the_depths/icon.png",
+  "icon": "assets/denizens/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
